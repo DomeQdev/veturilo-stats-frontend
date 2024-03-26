@@ -18,7 +18,7 @@
     padding: 1rem;
     background-color: #2e1b18;
     color: #ffb4a9;
-    border-radius: 0.5rem;
+    border-radius: 24px;
     width: 300px;
 }
 
