@@ -7,11 +7,11 @@ const routes: RouteRecordRaw[] = [
         name: "Home",
         component: Index,
     },
-    // {
-    //     path: "/game",
-    //     name: "Game",
-    //     component: () => import("../components/game/Game.vue"),
-    // },
+    {
+        path: "/getBike",
+        name: "GetBike",
+        component: () => import("../components/GetBike/GetBike.vue"),
+    },
 ];
 
 export default createRouter({
